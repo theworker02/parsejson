@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/parsejson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parse filesystem json paths across POSIX and Windows conventions.",
+  "bin": {
+    "parsejson": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/parsejson.git"
+  },
+  "homepage": "https://theworker02.github.io/parsejson/",
+  "keywords": [
+    "parse",
+    "json",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
